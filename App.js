@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   },
   box: {
     width: 300,
-    height: 350,
+    height: 300,
     padding: 15,
     marginBottom: 20,
     borderWidth: 2,
@@ -178,8 +178,8 @@ const styles = StyleSheet.create({
   },
 
   box1: {
-    width: 400,
-    height: 350,
+    width: 350,
+    height: 450,
     padding: 15,
     marginBottom: 20,
     borderWidth: 2,
@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   },
 
   boxLista: {
-    width: 400,
+    width: 350,
     height: 100,
     padding: 15,
     marginBottom: 20,
