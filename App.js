@@ -1,14 +1,15 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-
+import { useFonts } from 'expo-font'; // 
 
 const Layout = () => {
+ 
+
   return (
     <View style={styles.container}>
-      {/* Título da página */}
+     
       <Text style={styles.title}>Artistas</Text>
 
-      {/* Primeiro box */}
       <View style={styles.box}>
         <Image
           source={{
@@ -21,7 +22,7 @@ const Layout = () => {
         <Text style={styles.pais}>Reino Unido</Text>
       </View>
 
-      {/* Segundo box */}
+    
       <View style={styles.box}>
         <Image
           source={{
@@ -40,17 +41,17 @@ const Layout = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', 
-    alignItems: 'center',     
+    justifyContent: 'center',
+    alignItems: 'center',
     padding: 20,
-    backgroundColor: '#9404d6', 
+    backgroundColor: '#9404d6',
   },
   title: {
     fontSize: 32,
     fontWeight: 'bold',
     marginBottom: 20,
     color: '#e3cbf7',
-    fontFamily: 'Roboto', 
+    fontFamily: 'InterBlack', 
   },
   box: {
     width: 300,
@@ -66,8 +67,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 5,
     elevation: 5,
-    justifyContent: 'center', 
-    alignItems: 'center',     
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   image: {
     width: '100%',
@@ -77,24 +78,24 @@ const styles = StyleSheet.create({
   },
   artista: {
     color: '#e3cbf7',
-    fontFamily: 'Roboto',
+    fontFamily: 'InterBlack',
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 5,
-    textAlign: 'start', 
+    textAlign: 'start',
   },
   genero: {
     color: '#e3cbf7',
-    fontFamily: 'Roboto',
+    fontFamily: 'InterBlack',
     fontSize: 16,
     marginBottom: 5,
-    textAlign: 'center', 
+    textAlign: 'center',
   },
   pais: {
     color: '#e3cbf7',
-    fontFamily: 'Roboto',
+    fontFamily: 'InterBlack',
     fontSize: 16,
-    textAlign: 'center', 
+    textAlign: 'center',
   },
 });
 
